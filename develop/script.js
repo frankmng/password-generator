@@ -23,6 +23,7 @@ function generatePassword(){
         alert("Password length does not min or max length requirements")
         return retry_length;
     }
+
     let uppercaseUI = prompt("Do you want uppercase letters? yes or no");
     let lowercaseUI = prompt("Do you want lowercase letters? yes or no");
     let numberUI = prompt("Do you want numbers? yes or no");
@@ -46,7 +47,6 @@ function generatePassword(){
         alert(" At least one character type should be selected")
         return retry_selection
     }
-
     // convert character array to string
     let passwordString = characters.join('');
     // initialize empty string
@@ -67,6 +67,5 @@ function writePassword() {
   passwordText.value = password;
 
 }
-
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
