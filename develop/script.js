@@ -9,12 +9,12 @@ const special = ['!','@','#','$','%','^','&','*','(',')','_','+','-','=']
 
 // initialize empty characters array
 let characters = [];
-var retry_length = "Please try again \n Choose a length of min. 8 characters and max. 128 characters"
+
+// validation messages for user to retry
+var retry_length = "Please try again \n Choose a length of between minimum 8 characters and maximum 128 characters"
 var retry_selection = "Please try again \n At least one character type should be selected"
 
-// convert array into string
-
-// generate password with user criteria
+// generate password with user criteria and validation
 function generatePassword(){
 
     // validate length selection and prompt user to retry if doesn't meet criteria
