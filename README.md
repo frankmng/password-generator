@@ -6,6 +6,8 @@
 
 The purpose of this project is to provide a randomly generated strong password based on a series of user inputs in order to provide greater security for anyone with access to sensitive data or simply anyone that needs a strong password.
 
+Link to app: https://frankmng.github.io/password-generator/
+
 ## Installation
 
 N/A
